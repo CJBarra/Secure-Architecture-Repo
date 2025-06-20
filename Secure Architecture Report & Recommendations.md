@@ -21,7 +21,7 @@ Lighthouse Labs
 
 [**References**](#references)
 
-### 1 \- Introduction {#1---introduction}
+### 1 \- Introduction
 
 The following report was created as a comprehensive summarization of the current state of the security landscape in a mid-sized, e-commerce company that has undergone a full-scale end-to-end security architecture assessment. Security architecture, as defined by the National Institute of Standards and Technology (referred to as NIST from here on) is:  
 A set of physical and logical security-relevant representations (i.e., views) of system architecture that conveys information about how the system is partitioned into security domains and makes use of security-relevant elements to enforce security policies within and between security domains based on how data and information must be protected. (NIST SP 800-37 Rev. 2\)  
