@@ -7,19 +7,19 @@ Lighthouse Labs
 
 ### Table of Contents
 
-[**1 \- Introduction	2**](#1---introduction)
+[**1 \- Introduction**](#1---introduction)
 
-[**2 \- Current Security Landscape	3**](#2---current-security-landscape)
+[**2 \- Current Security Landscape**](#2---current-security-landscape)
 
-[**3 \- Security Architecture Goals	7**](#3---security-architecture-goals)
+[**3 \- Security Architecture Goals**](#3---security-architecture-goals)
 
-[**4 \- Security Architecture Recommendations	8**](#4---security-architecture-recommendations)
+[**4 \- Security Architecture Recommendations**](#4---security-architecture-recommendations)
 
-[**5 \- Implementation Strategy	13**](#5---implementation-strategy)
+[**5 \- Implementation Strategy**](#5---implementation-strategy)
 
-[**6 \- Summary of Findings	15**](#6---summary-of-findings)
+[**6 \- Summary of Findings**](#6---summary-of-findings)
 
-[**References	16**](#references)
+[**References**](#references)
 
 ### 1 \- Introduction {#1---introduction}
 
