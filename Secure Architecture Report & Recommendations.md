@@ -27,7 +27,7 @@ The following report was created as a comprehensive summarization of the current
 A set of physical and logical security-relevant representations (i.e., views) of system architecture that conveys information about how the system is partitioned into security domains and makes use of security-relevant elements to enforce security policies within and between security domains based on how data and information must be protected. (NIST SP 800-37 Rev. 2\)  
 It will highlight notable areas and assets in need of additional security measures in order to comply with suggested mitigation strategies, as per the standards and policies provided by NIST. These mitigation strategies are meant to minimize risk to company standard operations, some suggested strategies include but are not limited to: the protection of employee and customer data, the implementation of network monitoring and intrusion detections systems, the segmentation of overall network architecture, and improving security of the private payment network through the use of Virtual Private Network (VPN) services. To note: The author of this report has provided these mitigation strategies (discussed below in section 4 \- Recommendations) without knowledge or proper consideration of the company’s resources and budget constraints. Therefore, some suggested mitigation strategies provided in the following report may not be viable options and therefore may need revisions or alternatives.
 
-### 2 \- Current Security Landscape {#2---current-security-landscape}
+### 2 \- Current Security Landscape
 
 In this section we cover the vulnerabilities and risks found during the end-to-end security architecture assessment in regards to the security architecture currently being utilized by the company. Please note that the following list will cover key areas in need of an improved security posture, rather than a full list of all items/assets identified within the initial assessment report.
 
@@ -86,7 +86,7 @@ In this section we cover the vulnerabilities and risks found during the end-to-e
       10. Credentials from Password Stores \[T1555\] \[AC-3\], current centralized implementation of servers (web, database, certificate) can be compromised all at once by adversaries.   
       11. Compromised Payment systems can lead to loss in customer data  Confidentiality, and Integrity.
 
-### 3 \- Security Architecture Goals {#3---security-architecture-goals}
+### 3 \- Security Architecture Goals
 
 With the expected growth of the organization, a need for increased security measures becomes a worthwhile venture. On average, enterprises use more than 130 security tools-tools that only create more challenges to manage, require a larger workforce and demand a significant portion of the security budget (Ariganello, 2022). A Security architecture provides a vital foundation for a successful cybersecurity strategy, it allows security architects to establish a strong and adaptable security posture within an organization.  
 From a business standpoint, a security architecture can be utilized to ensure adherence to specific industry-standards and regulations (i.e. NIST, and International Organization for Standardization (ISO) standard). Additionally, because security architecture employs zero trust, and privacy-by-design principles, enterprises are able to meet industry regulations and compliance requirements (i.e., data protection, access controls and privacy) with relative cost and time-consuming ease (Arora, 2023). That being said, in order for organizations to meet their security needs, security leaders (i.e. Chief Information Security Officers (CISO)) will need to develop security architecture programs that covers a series of steps, as such listed below:
@@ -98,7 +98,7 @@ From a business standpoint, a security architecture can be utilized to ensure ad
 5. Define and document physical, logical and conceptual architectures  
 6. Monitor, improve, govern and align with evolving business and technical needs.
 
-### 4 \- Security Architecture Recommendations {#4---security-architecture-recommendations}
+### 4 \- Security Architecture Recommendations
 
 This section will cover various means of mitigation (in regards to the vulnerabilities reported in section 2 of this report), as recommended by the Mitre Att\&ck framework on tactics and techniques of known vulnerabilities. 
 
@@ -156,7 +156,7 @@ This section will cover various means of mitigation (in regards to the vulnerabi
 
             
 
-### 5 \- Implementation Strategy {#5---implementation-strategy}
+### 5 \- Implementation Strategy
 
 The following section will highlight a proposed phase approach to implementing the recommended security measures documented within the previous sections of this report. The proposal is designed to be implemented over a course of one year, broken down into quadrimestre (every 4 months) segments. Ideally this will help ease employees and customers into the new processes and policies to be implemented throughout the organization.
 
@@ -187,12 +187,12 @@ The following section will highlight a proposed phase approach to implementing t
       2. Demilitarized Zone: including Web Server, external firewall (for internet) and internal firewall (web server to internal network)  
    2. Roll out the latest update to Intrusion Detection and Network Monitoring systems, specifically tailored for company requirements and needs.
 
-### 6 \- Summary of Findings {#6---summary-of-findings}
+### 6 \- Summary of Findings
 
 With the ever changing nature of the internet and subsequently the cybersecurity field, there is no shortage of cyber threats and malicious actors. It becomes ever apparent that organizations have the need to invest into advanced security tools in order to combat these ongoing threats. A comprehensive security architecture serves as a form of defense that takes a proactive role in identifying, assessing, and prioritizing risk-based security strategies. In regards to this report, we have gone over a series of network security recommendations to help protect the organization and its assets. Included but not limited to: the integration of network monitoring tools and services, identity and access management (IAM), data protection through the use of encryption, and application security via the use of firewalls and segmentation of outward facing facilities (i.e. Web Server).  
 Had these recommendations not been proposed, the current state of the network would not be able to handle the increase flow of traffic, as a result of customer base expansion, nor would it have been effective in its ability to monitor and diagnose said traffic, due to the network currently lacking any means of effectively doing so (i.e. lack of network monitoring and intrusion detection systems). Additionally, in the event of a compromise, should a malicious actor gain access to the centralized database, the adversary could cause irreparable damage to customer and employee trust, organization reputational damage, or even potentially cause severe financial loss. Said loss could be compounded upon, should authorized officials perform an audit of non-existent security measures that may be required by federal rules and regulations / industry standard.
 
-### References {#references}
+### References
 
 Techniques \- Enterprise | MITRE ATT\&CK®. [https://attack.mitre.org/techniques/enterprise/](https://attack.mitre.org/techniques/enterprise/).
 
