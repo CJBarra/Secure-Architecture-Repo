@@ -3,7 +3,7 @@
 # Secure Architecture Report & Recommendations
 
 Christian Barratt  
-Cyber Security Bootcamp \- Lighthouse Labs
+Lighthouse Labs
 
 ### Table of Contents
 
